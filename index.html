@@ -1,0 +1,30 @@
+@prefix as: <https://www.w3.org/ns/activitystreams#> .
+@prefix ldes: <https://w3id.org/ldes#> .
+@prefix tree: <https://w3id.org/tree#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+{
+    <https://mint-ldes.ails.ece.ntua.gr/cyprus/1012/ldes#eventstream> a ldes:EventStream ;
+        ldes:retentionPolicy _:b0 ;
+        ldes:timestampPath as:published ;
+        ldes:versionCreateObject as:Create ;
+        ldes:versionDeleteObject as:Delete ;
+        ldes:versionOfPath as:object ;
+        tree:view <https://mint-ldes.ails.ece.ntua.gr/cyprus/1012/ldes> .
+
+    <https://mint-ldes.ails.ece.ntua.gr/cyprus/1012/ldes> tree:relation _:b1,
+            _:b2 .
+
+    _:b0 a ldes:LatestVersionSubset ;
+        ldes:amount 1 .
+
+    _:b1 a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/data/2020/11/07/readings.ttl> ;
+        tree:path as:published ;
+        tree:value "2024-01-01T00:00:00+00:00"^^xsd:dateTime .
+
+    _:b2 a tree:LessThanRelation ;
+        tree:node <https://mint-ldes.ails.ece.ntua.gr/cyprus/1012/ldes/2024> ;
+        tree:path as:published ;
+        tree:value "2025-01-01T00:00:00+00:00"^^xsd:dateTime .
+}
