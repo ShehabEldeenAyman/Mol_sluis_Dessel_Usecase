@@ -1,0 +1,38 @@
+@prefix as: <https://www.w3.org/ns/activitystreams#> .
+@prefix ldes: <https://w3id.org/ldes#> .
+@prefix tree: <https://w3id.org/tree#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+_:Nf15fb173d7af45f4b463e16ca106d23d {
+    <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/> a ldes:EventStream ;
+        ldes:retentionPolicy _:N9451a0654fa447a484e225f6510b06b8 ;
+        ldes:timestampPath as:published ;
+        ldes:versionCreateObject as:Create ;
+        ldes:versionDeleteObject as:Delete ;
+        ldes:versionOfPath as:object ;
+        tree:view <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/ldes/> .
+
+    _:N1693a534701b42539b71819bc5672279 a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/data/2020/11> ;
+        tree:path as:published ;
+        tree:vaue "2020-11-01T00:00:00+00:00"^^xsd:dateTime .
+
+    _:N40c5c3fd99204edeadcd6807bbe0f95f a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/data/2020/12> ;
+        tree:path as:published ;
+        tree:vaue "2020-12-01T00:00:00+00:00"^^xsd:dateTime .
+
+    _:N647d545ba8da44a183d0aeac95e53636 a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/data/2020/11> ;
+        tree:path as:published ;
+        tree:vaue "2020-11-01T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Ncab398f99334486d8f819ba0059cd077 a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/data/2020/12> ;
+        tree:path as:published ;
+        tree:vaue "2020-12-01T00:00:00+00:00"^^xsd:dateTime .
+
+    _:N9451a0654fa447a484e225f6510b06b8 a ldes:LatestVersionSubset ;
+        ldes:amount 1 .
+}
+
