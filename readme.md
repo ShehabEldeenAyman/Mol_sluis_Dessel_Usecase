@@ -1,0 +1,1 @@
+java -jar rmlmapper.jar -m Mapping.rml.ttl -o Mol_Sluis_Dessel_data.ttl -s turtle
