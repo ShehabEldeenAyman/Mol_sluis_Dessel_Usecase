@@ -4,40 +4,40 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 {
+    <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2020/2020.trig> tree:relation _:N1125d24d0ff44752b4a3eb545930389b,
+            _:N233d7736e0594099b3b28be4006a948c,
+            _:N9f58883b47e045e9bf2d46bf2d7f9bfc,
+            _:Ndc85491a89d048f6a4d4ac5f5ec1544a .
+
     <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/LDESTSS.trig> a ldes:EventStream ;
-        ldes:retentionPolicy _:N3d26803733f049b7ad4dd58b5c890c89 ;
+        ldes:retentionPolicy _:N7f30ce9212b5478a96b0d2a9203c9283 ;
         ldes:timestampPath as:published ;
         ldes:versionCreateObject as:Create ;
         ldes:versionDeleteObject as:Delete ;
         ldes:versionOfPath as:object ;
         tree:view <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/LDESTSS.trig/2020.trig> .
 
-    <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/LDESTSS/2020/2020.trig> tree:relation _:N82f9b153fe9149e7882f7dfd54830466,
-            _:N85afad2efea949488e08dab62189af09,
-            _:Nb91002e1473f49648f661d5d7ae9f104,
-            _:Nbdf3e5b3e21a4de8956fae01bff0eea3 .
+    _:N1125d24d0ff44752b4a3eb545930389b a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2020/11/11.trig> ;
+        tree:path as:published ;
+        tree:value "2020-11-01T00:00:00+00:00"^^xsd:dateTime .
 
-    _:N3d26803733f049b7ad4dd58b5c890c89 a ldes:LatestVersionSubset ;
+    _:N233d7736e0594099b3b28be4006a948c a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2020/12/12.trig> ;
+        tree:path as:published ;
+        tree:value "2020-12-01T00:00:00+00:00"^^xsd:dateTime .
+
+    _:N7f30ce9212b5478a96b0d2a9203c9283 a ldes:LatestVersionSubset ;
         ldes:amount 1 .
 
-    _:N82f9b153fe9149e7882f7dfd54830466 a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/LDESTSS/2020/11/11.trig> ;
+    _:N9f58883b47e045e9bf2d46bf2d7f9bfc a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2020/11/11.trig> ;
         tree:path as:published ;
         tree:value "2020-11-01T00:00:00+00:00"^^xsd:dateTime .
 
-    _:N85afad2efea949488e08dab62189af09 a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/LDESTSS/2020/12/12.trig> ;
+    _:Ndc85491a89d048f6a4d4ac5f5ec1544a a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2020/12/12.trig> ;
         tree:path as:published ;
         tree:value "2020-12-01T00:00:00+00:00"^^xsd:dateTime .
-
-    _:Nb91002e1473f49648f661d5d7ae9f104 a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/LDESTSS/2020/12/12.trig> ;
-        tree:path as:published ;
-        tree:value "2020-12-01T00:00:00+00:00"^^xsd:dateTime .
-
-    _:Nbdf3e5b3e21a4de8956fae01bff0eea3 a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/LDESTSS/2020/11/11.trig> ;
-        tree:path as:published ;
-        tree:value "2020-11-01T00:00:00+00:00"^^xsd:dateTime .
 }
 
