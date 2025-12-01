@@ -1,17 +1,38 @@
+@prefix as: <https://www.w3.org/ns/activitystreams#> .
+@prefix ldes: <https://w3id.org/ldes#> .
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix tree: <https://w3id.org/tree#> .
 @prefix tss: <https://w3id.org/tss#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-_:Ne1280e48699d4f19b725e006f3ce16b6 {
-    _:n4b089cdbc8f9475eb9e55d8e8fb5a801b3917 a tss:Snippet ;
-        tss:about _:n4b089cdbc8f9475eb9e55d8e8fb5a801b3918 ;
+<https://example.org/tss/snippet/73626010_20210906051500> {
+    <https://example.org/tss/snippet/73626010_20210906051500> a tss:Snippet ;
+        tss:about _:n88525e361d4a4943987a2b77534cee75b2130 ;
         tss:from_ "2021-09-06T05:15:00"^^xsd:dateTime ;
         tss:pointType "http://www.w3.org/ns/sosa/Observation" ;
-        tss:points "[{\"time\": \"2021-09-06T05:15:00\", \"value\": \"-2.37\", \"id\": \"nfa2bb61764be4d069c340f7f63969d69b213857\", \"observedProperty\": \"River Discharge\"}, {\"time\": \"2021-09-06T21:15:00\", \"value\": \"-5.87\", \"id\": \"nfa2bb61764be4d069c340f7f63969d69b213717\", \"observedProperty\": \"River Discharge\"}, {\"time\": \"2021-09-06T21:30:00\", \"value\": \"14.14\", \"id\": \"nfa2bb61764be4d069c340f7f63969d69b213714\", \"observedProperty\": \"River Discharge\"}, {\"time\": \"2021-09-06T21:45:00\", \"value\": \"18.08\", \"id\": \"nfa2bb61764be4d069c340f7f63969d69b213712\", \"observedProperty\": \"River Discharge\"}, {\"time\": \"2021-09-06T22:00:00\", \"value\": \"-1.31\", \"id\": \"nfa2bb61764be4d069c340f7f63969d69b213710\", \"observedProperty\": \"River Discharge\"}, {\"time\": \"2021-09-06T22:15:00\", \"value\": \"-14.9\", \"id\": \"nfa2bb61764be4d069c340f7f63969d69b213708\", \"observedProperty\": \"River Discharge\"}, {\"time\": \"2021-09-06T22:30:00\", \"value\": \"-8.3\", \"id\": \"nfa2bb61764be4d069c340f7f63969d69b213706\", \"observedProperty\": \"River Discharge\"}, {\"time\": \"2021-09-06T22:45:00\", \"value\": \"-2.29\", \"id\": \"nfa2bb61764be4d069c340f7f63969d69b213702\", \"observedProperty\": \"River Discharge\"}]" ;
+        tss:points "[{\"time\": \"2021-09-06T05:15:00\", \"value\": \"-2.37\", \"id\": \"n1ee5a2ba52304659a71c1806e35faa1eb213857\", \"observedProperty\": \"River Discharge\"}, {\"time\": \"2021-09-06T21:15:00\", \"value\": \"-5.87\", \"id\": \"n1ee5a2ba52304659a71c1806e35faa1eb213717\", \"observedProperty\": \"River Discharge\"}, {\"time\": \"2021-09-06T21:30:00\", \"value\": \"14.14\", \"id\": \"n1ee5a2ba52304659a71c1806e35faa1eb213714\", \"observedProperty\": \"River Discharge\"}, {\"time\": \"2021-09-06T21:45:00\", \"value\": \"18.08\", \"id\": \"n1ee5a2ba52304659a71c1806e35faa1eb213712\", \"observedProperty\": \"River Discharge\"}, {\"time\": \"2021-09-06T22:00:00\", \"value\": \"-1.31\", \"id\": \"n1ee5a2ba52304659a71c1806e35faa1eb213710\", \"observedProperty\": \"River Discharge\"}, {\"time\": \"2021-09-06T22:15:00\", \"value\": \"-14.9\", \"id\": \"n1ee5a2ba52304659a71c1806e35faa1eb213708\", \"observedProperty\": \"River Discharge\"}, {\"time\": \"2021-09-06T22:30:00\", \"value\": \"-8.3\", \"id\": \"n1ee5a2ba52304659a71c1806e35faa1eb213706\", \"observedProperty\": \"River Discharge\"}, {\"time\": \"2021-09-06T22:45:00\", \"value\": \"-2.29\", \"id\": \"n1ee5a2ba52304659a71c1806e35faa1eb213702\", \"observedProperty\": \"River Discharge\"}]" ;
         tss:to "2021-09-06T22:45:00"^^xsd:dateTime .
 
-    _:n4b089cdbc8f9475eb9e55d8e8fb5a801b3918 a tss:PointTemplate ;
+    _:n88525e361d4a4943987a2b77534cee75b2130 a tss:PointTemplate ;
         sosa:madeBySensor <http://example.org/sensor/73626010> ;
         sosa:observedProperty "River Discharge" .
+}
+
+{
+    <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/data/LDES/> a ldes:EventStream ;
+        ldes:retentionPolicy _:Nca14e406d8ca4a1ea19468c08ef4aa19 ;
+        ldes:timestampPath as:published ;
+        ldes:versionCreateObject as:Create ;
+        ldes:versionDeleteObject as:Delete ;
+        ldes:versionOfPath as:object ;
+        tree:member <https://example.org/tss/snippet/73626010_20210906051500> ;
+        tree:view <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/data/LDES/2021/09/06/readings.trig> .
+
+    <https://example.org/tss/snippet/73626010_20210906051500> a as:Create ;
+        as:object <https://example.org/tss/snippet/73626010_20210906051500> ;
+        as:published "2021-09-06T05:15:00"^^xsd:dateTime .
+
+    _:Nca14e406d8ca4a1ea19468c08ef4aa19 a ldes:LatestVersionSubset ;
+        ldes:amount 1 .
 }
 
