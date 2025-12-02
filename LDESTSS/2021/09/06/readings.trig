@@ -6,22 +6,23 @@
 
 <https://example.org/tss/snippet/73626010_20210906051500> {
     <https://example.org/tss/snippet/73626010_20210906051500> a tss:Snippet ;
-        tss:about _:n7b8ba293562048b69920d19082b45b7db2130 ;
+        tss:about _:n9973e9b708e74ba58d5c75bd32402971b2130 ;
         tss:from_ "2021-09-06T05:15:00"^^xsd:dateTime ;
         tss:pointType "http://www.w3.org/ns/sosa/Observation" ;
         tss:points "[{\"time\": \"2021-09-06T05:15:00\", \"value\": \"-2.37\", \"id\": \"n1ee5a2ba52304659a71c1806e35faa1eb213857\", \"observedProperty\": \"River Discharge\"}, {\"time\": \"2021-09-06T21:15:00\", \"value\": \"-5.87\", \"id\": \"n1ee5a2ba52304659a71c1806e35faa1eb213717\", \"observedProperty\": \"River Discharge\"}, {\"time\": \"2021-09-06T21:30:00\", \"value\": \"14.14\", \"id\": \"n1ee5a2ba52304659a71c1806e35faa1eb213714\", \"observedProperty\": \"River Discharge\"}, {\"time\": \"2021-09-06T21:45:00\", \"value\": \"18.08\", \"id\": \"n1ee5a2ba52304659a71c1806e35faa1eb213712\", \"observedProperty\": \"River Discharge\"}, {\"time\": \"2021-09-06T22:00:00\", \"value\": \"-1.31\", \"id\": \"n1ee5a2ba52304659a71c1806e35faa1eb213710\", \"observedProperty\": \"River Discharge\"}, {\"time\": \"2021-09-06T22:15:00\", \"value\": \"-14.9\", \"id\": \"n1ee5a2ba52304659a71c1806e35faa1eb213708\", \"observedProperty\": \"River Discharge\"}, {\"time\": \"2021-09-06T22:30:00\", \"value\": \"-8.3\", \"id\": \"n1ee5a2ba52304659a71c1806e35faa1eb213706\", \"observedProperty\": \"River Discharge\"}, {\"time\": \"2021-09-06T22:45:00\", \"value\": \"-2.29\", \"id\": \"n1ee5a2ba52304659a71c1806e35faa1eb213702\", \"observedProperty\": \"River Discharge\"}]" ;
         tss:to "2021-09-06T22:45:00"^^xsd:dateTime .
 
-    _:n7b8ba293562048b69920d19082b45b7db2130 a tss:PointTemplate ;
+    _:n9973e9b708e74ba58d5c75bd32402971b2130 a tss:PointTemplate ;
         sosa:madeBySensor <http://example.org/sensor/73626010> ;
         sosa:observedProperty "River Discharge" .
 }
 
 {
-    <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/> a ldes:EventStream ;
-        ldes:timestampPath tss:_from ;
+    <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/> ldes:timestampPath tss:_from ;
         tree:member <https://example.org/tss/snippet/73626010_20210906051500> ;
         tree:view <> .
+
+    <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/LDESTSS#eventstream> a ldes:EventStream .
 
     <https://example.org/tss/snippet/73626010_20210906051500> tss:_from "2021-09-06T05:15:00"^^xsd:dateTime .
 }
