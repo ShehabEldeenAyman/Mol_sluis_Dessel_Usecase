@@ -1,391 +1,384 @@
-@prefix as: <https://www.w3.org/ns/activitystreams#> .
 @prefix ldes: <https://w3id.org/ldes#> .
 @prefix tree: <https://w3id.org/tree#> .
+@prefix tss: <https://w3id.org/tss#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 {
-    <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/LDESTSS.trig> a ldes:EventStream ;
-        ldes:retentionPolicy _:N1107eb1afecb43a6829b34146d1fb021 ;
-        ldes:timestampPath as:published ;
-        ldes:versionCreateObject as:Create ;
-        ldes:versionDeleteObject as:Delete ;
-        ldes:versionOfPath as:object ;
+    <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/LDESTSS.trig#eventstream> a ldes:EventStream ;
+        ldes:timestampPath tss:_from ;
         tree:view <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/08.trig> .
 
-    <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/08.trig> tree:relation _:N06189c97a60048a89c8f6c6b11a17133,
-            _:N0900c16e71a2437ca1e2841447255fbe,
-            _:N0a66082420d54bfdacc9a96bb8129f5c,
-            _:N0fec0675ec754ca3928e655a73063bf5,
-            _:N12cc3c65988e4f5aa535adf2ff9b9228,
-            _:N1a36d0e82b4241f09c34f6d2938f4f24,
-            _:N2c642618f57949bc85fe857197c57cb4,
-            _:N33e7e4fe506d4413bb15f8c477e9bdf5,
-            _:N3570af4e07f04fcbb746b3d09f88a3df,
-            _:N366cddc7af554360b479cecb47f0bf77,
-            _:N37e90d637c6646929e1c40f7748d98f6,
-            _:N3931a7b855c64da6ae7b1a324f80f69f,
-            _:N3e30142443094582a6904a3bc736f292,
-            _:N4200848d8dc34839849a3738752453a7,
-            _:N483e96ba30da443682765717b9dc78c2,
-            _:N4cdbcbc5bf51406e9f9f8fc0e99eec3c,
-            _:N53808dbf47094b4295bb5fbcd0a4e946,
-            _:N5afb17798b99449eb646024bce59042f,
-            _:N5b75bc0a568548c7a9d3c83c54f3f4b3,
-            _:N5e9cc6f4ce144ba196b75bda63ba9990,
-            _:N6184fa99be8f4614b1061736625c7d44,
-            _:N6413a53f798f45ad8e2534336141679b,
-            _:N6764d7dd968f4127a7c8c4dd47230b85,
-            _:N6860a80e6dbd4d738d0a890d4e962b06,
-            _:N73dde2da7dd141d59cf51dfd9a078455,
-            _:N76b881f7b22041dbb53ac4df91bf86e1,
-            _:N77705f2d6c4e4dc98e314f028e95f029,
-            _:N791ddd883d654c42b6f5abe8df1a2af2,
-            _:N7a51933358d742a3a890f84209825276,
-            _:N7b7869766c6c4319a1c61d5ca62cbf20,
-            _:N7b9351726e2c454d83806514a1ddb814,
-            _:N7ddb6307e6bd4c2bb0215ba792a6277e,
-            _:N82b05ac6f804409a830dca1dfd013e53,
-            _:N82d3475430a64385a68e5c7a177c5157,
-            _:N8a1db9ff1ec34ecd87e6c49e5866a28e,
-            _:N8c33ec1d570d42779b4165818e32aeed,
-            _:N8dd2504cbe51444a82d425814e47e8d7,
-            _:N8e029cdb2d5a443d86a3060ded12afda,
-            _:N8e0e43207c6b45fc91899f0dad95d820,
-            _:N94701312f203443c9a6f5c096d3b3e2f,
-            _:N95441c6d80224462882277d8130a5845,
-            _:N96d614c9b5464abca50f0f4167b5df27,
-            _:Na7dea87449bb4a2bb4bd6a3f7c61f9ab,
-            _:Na9216a0298934f06903b6fb85c850569,
-            _:Nb16be77bd8664d85a5c37d0039a10c27,
-            _:Nb2f576b63efa4f758d155ab84b3afe3d,
-            _:Nb8c4c8ce3019474cb55cc570b3b66f08,
-            _:Nbb28c24376ea4ca2828058a45ae7acc2,
-            _:Nbc7a1f90f3694778bc144c3dc30859b2,
-            _:Nbd20fe3eaa934d29a490e32abef90130,
-            _:Nc26dc143fadc4339bb497bf41a23b752,
-            _:Nd39652bb80d14c0ea14a075930b7c135,
-            _:Nd432304c21864baa9d107c541614edf9,
-            _:Nd97a8c285ae74c3a9c1c7a6a2c3a38ac,
-            _:Nd9ce21e54524401cb7b414c611d0b8e6,
-            _:Nddf9096bf4d84128a8f3825fbb5dd874,
-            _:Ne570d9cceb89494e9d5a055b117719e2,
-            _:Nf1653b18d6384169b2ba004e7188a74d,
-            _:Nf1b5fc44d666418aaa9164557025e1fa,
-            _:Nf6947c8521a64c7aaf6c1094a0833ee1,
-            _:Nf7334ec1ac874679859e2657271063f2,
-            _:Nf9517895bdb249e48d58637ee8218286 .
+    <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/08.trig> tree:relation _:N0541333733f2487496d8d0c2b9a13e62,
+            _:N071f81f52a83433083fdbdab851b5577,
+            _:N183e5d0e68804a7395d08d20a70485c8,
+            _:N1a730d96d93c4b0e98a26175f6d81c7c,
+            _:N1b42ab84b24b48d08cb838e24bb8899a,
+            _:N1c33401bd1284f5dab6cccaca801a7bc,
+            _:N1efbac17d0c5403e97582bab4dd2eec1,
+            _:N1f78e983d593479188786907e9b9f976,
+            _:N264ee8ce3dfd49bfb78ab21567c2b3d2,
+            _:N40f8fc469af44e3eb548c7a06aa57d01,
+            _:N43e774bcef1c4faa90b80bc14061254f,
+            _:N543a401bcf4c44b2866f35a2740c282f,
+            _:N55577f1cbcc34d94b449aa87a6df37b2,
+            _:N59e10df4f6644874aa7c384b14685c05,
+            _:N612a30a2c11e422690c55ac1725d8252,
+            _:N6ba60eff5d1e4f87a7f264a7508a080d,
+            _:N79223613922540a3b8f0e65026ccd49b,
+            _:N7cf0d38e2f824a06b14b17cf6fa5669d,
+            _:N7d24e33f10aa42c294085949cf0320e3,
+            _:N7d963edd091b4370b7ebbd5851bf3cce,
+            _:N7ef31b45c27b46d6a704f390a595fc9a,
+            _:N7fdb4652377e4c6dbabd67bee7216248,
+            _:N835e5d9658e8444981da3af454cd93e0,
+            _:N85a53dfaa44b4dc9a9b6ca0c6658bd95,
+            _:N865ca0d95b82487c95d0fb8e1027e740,
+            _:N86c0439cacdf44e29414f97006a02364,
+            _:N89c54eb08bfb421e91507f46a2f73967,
+            _:N8d511fe44b754a7e8c11be5d0342a1d5,
+            _:N901cf2eb20cc4983861337f146d630f9,
+            _:N967959acd0db4191bb92f131ec2d9c35,
+            _:N9dec8f8b1e4e44ac978b2b451ce8e8ac,
+            _:Na0aec636ce524f4baf5d77e684f20b54,
+            _:Na1f3f6ea49f9484aad2d1da68758c91f,
+            _:Na60212ab73914084934693f8b58b7ad1,
+            _:Nb3ce69a2c4de453fb5c904894601c829,
+            _:Nb61d48e831674cbbbb9216e9b0d4d8aa,
+            _:Nbab1b8f133404daaba4f6670771526d5,
+            _:Nbdf4d7b52c49423c9c73f4132f46017f,
+            _:Nbeee7dd915704e148e43738f73a8e899,
+            _:Nc31faf8422514e38a743591a69dde801,
+            _:Nc42b3ffee56d4f18b5375d69a2704a66,
+            _:Nc93d6e38d26d4f32939625632a865fa5,
+            _:Ncf5c38700aaf44518030b8b37ca7ef61,
+            _:Nd1158bdbccaa4b3eb2debc1f8a2e73df,
+            _:Nd3b15633e7fd454dac88a176c7fd2c25,
+            _:Nd3ec8198a1dd4273ad96c97d2a978770,
+            _:Nd464354766d64435b7270e94280b11c5,
+            _:Nda3d36dce63949d0868e58ca2aa99b86,
+            _:Ndb07979f42bb4885839da0e0428d2eeb,
+            _:Ndc16a68cff7b45e3aaaa3b2850e04c3e,
+            _:Ndc7196cb6b7e4612bf5b44a4fd08cb00,
+            _:Ne15d1a56b57a40bab82ddd35d4aa33d6,
+            _:Nec15defe15254017bd0d7f2635c9fbe6,
+            _:Nef643bb9c379481dbb758e65f3e492cf,
+            _:Nf133f1c1f4e543799da3c97381328594,
+            _:Nf21dddebef824012985f8089fdf4f69a,
+            _:Nf2a38ba04e0c40d49b2a20c2df2ffe5f,
+            _:Nf5ebd3bfe39e4d6fa27d37f6192f2cab,
+            _:Nfe94735705494f4cb43761eb5977f6aa,
+            _:Nff882db1da6b47b589a6f0a918870bfc,
+            _:Nfff3f47724fa4bc88a21a367d8424b5b,
+            _:Nfff5a5d6969d43d7b8b5315ee52c3051 .
 
-    _:N06189c97a60048a89c8f6c6b11a17133 a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/26/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-26T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N0900c16e71a2437ca1e2841447255fbe a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/03/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-03T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N0a66082420d54bfdacc9a96bb8129f5c a tree:GreaterThanOrEqualToRelation ;
+    _:N0541333733f2487496d8d0c2b9a13e62 a tree:GreaterThanOrEqualToRelation ;
         tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/02/readings.trig> ;
-        tree:path as:published ;
+        tree:path tss:_from ;
         tree:value "2022-08-02T00:00:00+00:00"^^xsd:dateTime .
 
-    _:N0fec0675ec754ca3928e655a73063bf5 a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/13/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-13T00:00:00+00:00"^^xsd:dateTime .
+    _:N071f81f52a83433083fdbdab851b5577 a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/31/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-31T00:00:00+00:00"^^xsd:dateTime .
 
-    _:N1107eb1afecb43a6829b34146d1fb021 a ldes:LatestVersionSubset ;
-        ldes:amount 1 .
-
-    _:N12cc3c65988e4f5aa535adf2ff9b9228 a tree:GreaterThanOrEqualToRelation ;
+    _:N183e5d0e68804a7395d08d20a70485c8 a tree:LessThanRelation ;
         tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/08/readings.trig> ;
-        tree:path as:published ;
+        tree:path tss:_from ;
         tree:value "2022-08-08T00:00:00+00:00"^^xsd:dateTime .
 
-    _:N1a36d0e82b4241f09c34f6d2938f4f24 a tree:GreaterThanOrEqualToRelation ;
+    _:N1a730d96d93c4b0e98a26175f6d81c7c a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/20/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-20T00:00:00+00:00"^^xsd:dateTime .
+
+    _:N1b42ab84b24b48d08cb838e24bb8899a a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/31/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-31T00:00:00+00:00"^^xsd:dateTime .
+
+    _:N1c33401bd1284f5dab6cccaca801a7bc a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/18/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-18T00:00:00+00:00"^^xsd:dateTime .
+
+    _:N1efbac17d0c5403e97582bab4dd2eec1 a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/24/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-24T00:00:00+00:00"^^xsd:dateTime .
+
+    _:N1f78e983d593479188786907e9b9f976 a tree:GreaterThanOrEqualToRelation ;
         tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/15/readings.trig> ;
-        tree:path as:published ;
+        tree:path tss:_from ;
         tree:value "2022-08-15T00:00:00+00:00"^^xsd:dateTime .
 
-    _:N2c642618f57949bc85fe857197c57cb4 a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/24/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-24T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N33e7e4fe506d4413bb15f8c477e9bdf5 a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/25/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-25T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N3570af4e07f04fcbb746b3d09f88a3df a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/19/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-19T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N366cddc7af554360b479cecb47f0bf77 a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/08/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-08T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N37e90d637c6646929e1c40f7748d98f6 a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/17/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-17T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N3931a7b855c64da6ae7b1a324f80f69f a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/23/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-23T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N3e30142443094582a6904a3bc736f292 a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/12/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-12T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N4200848d8dc34839849a3738752453a7 a tree:GreaterThanOrEqualToRelation ;
+    _:N264ee8ce3dfd49bfb78ab21567c2b3d2 a tree:LessThanRelation ;
         tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/22/readings.trig> ;
-        tree:path as:published ;
+        tree:path tss:_from ;
         tree:value "2022-08-22T00:00:00+00:00"^^xsd:dateTime .
 
-    _:N483e96ba30da443682765717b9dc78c2 a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/24/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-24T00:00:00+00:00"^^xsd:dateTime .
+    _:N40f8fc469af44e3eb548c7a06aa57d01 a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/06/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-06T00:00:00+00:00"^^xsd:dateTime .
 
-    _:N4cdbcbc5bf51406e9f9f8fc0e99eec3c a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/29/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-29T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N53808dbf47094b4295bb5fbcd0a4e946 a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/12/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-12T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N5afb17798b99449eb646024bce59042f a tree:LessThanRelation ;
+    _:N43e774bcef1c4faa90b80bc14061254f a tree:GreaterThanOrEqualToRelation ;
         tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/13/readings.trig> ;
-        tree:path as:published ;
+        tree:path tss:_from ;
         tree:value "2022-08-13T00:00:00+00:00"^^xsd:dateTime .
 
-    _:N5b75bc0a568548c7a9d3c83c54f3f4b3 a tree:LessThanRelation ;
+    _:N543a401bcf4c44b2866f35a2740c282f a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/07/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-07T00:00:00+00:00"^^xsd:dateTime .
+
+    _:N55577f1cbcc34d94b449aa87a6df37b2 a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/19/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-19T00:00:00+00:00"^^xsd:dateTime .
+
+    _:N59e10df4f6644874aa7c384b14685c05 a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/17/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-17T00:00:00+00:00"^^xsd:dateTime .
+
+    _:N612a30a2c11e422690c55ac1725d8252 a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/10/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-10T00:00:00+00:00"^^xsd:dateTime .
+
+    _:N6ba60eff5d1e4f87a7f264a7508a080d a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/14/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-14T00:00:00+00:00"^^xsd:dateTime .
+
+    _:N79223613922540a3b8f0e65026ccd49b a tree:LessThanRelation ;
         tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/26/readings.trig> ;
-        tree:path as:published ;
+        tree:path tss:_from ;
         tree:value "2022-08-26T00:00:00+00:00"^^xsd:dateTime .
 
-    _:N5e9cc6f4ce144ba196b75bda63ba9990 a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/06/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-06T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N6184fa99be8f4614b1061736625c7d44 a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/31/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-31T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N6413a53f798f45ad8e2534336141679b a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/03/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-03T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N6764d7dd968f4127a7c8c4dd47230b85 a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/21/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-21T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N6860a80e6dbd4d738d0a890d4e962b06 a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/11/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-11T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N73dde2da7dd141d59cf51dfd9a078455 a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/01/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-01T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N76b881f7b22041dbb53ac4df91bf86e1 a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/18/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-18T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N77705f2d6c4e4dc98e314f028e95f029 a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/31/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-31T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N791ddd883d654c42b6f5abe8df1a2af2 a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/11/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-11T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N7a51933358d742a3a890f84209825276 a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/04/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-04T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N7b7869766c6c4319a1c61d5ca62cbf20 a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/20/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-20T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N7b9351726e2c454d83806514a1ddb814 a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/14/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-14T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N7ddb6307e6bd4c2bb0215ba792a6277e a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/05/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-05T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N82b05ac6f804409a830dca1dfd013e53 a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/27/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-27T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N82d3475430a64385a68e5c7a177c5157 a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/19/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-19T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N8a1db9ff1ec34ecd87e6c49e5866a28e a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/17/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-17T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N8c33ec1d570d42779b4165818e32aeed a tree:GreaterThanOrEqualToRelation ;
+    _:N7cf0d38e2f824a06b14b17cf6fa5669d a tree:GreaterThanOrEqualToRelation ;
         tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/30/readings.trig> ;
-        tree:path as:published ;
+        tree:path tss:_from ;
         tree:value "2022-08-30T00:00:00+00:00"^^xsd:dateTime .
 
-    _:N8dd2504cbe51444a82d425814e47e8d7 a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/21/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-21T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N8e029cdb2d5a443d86a3060ded12afda a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/15/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-15T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N8e0e43207c6b45fc91899f0dad95d820 a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/22/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-22T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N94701312f203443c9a6f5c096d3b3e2f a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/20/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-20T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N95441c6d80224462882277d8130a5845 a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/10/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-10T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N96d614c9b5464abca50f0f4167b5df27 a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/09/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-09T00:00:00+00:00"^^xsd:dateTime .
-
-    _:Na7dea87449bb4a2bb4bd6a3f7c61f9ab a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/29/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-29T00:00:00+00:00"^^xsd:dateTime .
-
-    _:Na9216a0298934f06903b6fb85c850569 a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/02/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-02T00:00:00+00:00"^^xsd:dateTime .
-
-    _:Nb16be77bd8664d85a5c37d0039a10c27 a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/10/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-10T00:00:00+00:00"^^xsd:dateTime .
-
-    _:Nb2f576b63efa4f758d155ab84b3afe3d a tree:GreaterThanOrEqualToRelation ;
+    _:N7d24e33f10aa42c294085949cf0320e3 a tree:LessThanRelation ;
         tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/25/readings.trig> ;
-        tree:path as:published ;
+        tree:path tss:_from ;
         tree:value "2022-08-25T00:00:00+00:00"^^xsd:dateTime .
 
-    _:Nb8c4c8ce3019474cb55cc570b3b66f08 a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/04/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-04T00:00:00+00:00"^^xsd:dateTime .
-
-    _:Nbb28c24376ea4ca2828058a45ae7acc2 a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/30/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-30T00:00:00+00:00"^^xsd:dateTime .
-
-    _:Nbc7a1f90f3694778bc144c3dc30859b2 a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/06/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-06T00:00:00+00:00"^^xsd:dateTime .
-
-    _:Nbd20fe3eaa934d29a490e32abef90130 a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/16/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-16T00:00:00+00:00"^^xsd:dateTime .
-
-    _:Nc26dc143fadc4339bb497bf41a23b752 a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/16/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-16T00:00:00+00:00"^^xsd:dateTime .
-
-    _:Nd39652bb80d14c0ea14a075930b7c135 a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/01/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-01T00:00:00+00:00"^^xsd:dateTime .
-
-    _:Nd432304c21864baa9d107c541614edf9 a tree:LessThanRelation ;
+    _:N7d963edd091b4370b7ebbd5851bf3cce a tree:GreaterThanOrEqualToRelation ;
         tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/18/readings.trig> ;
-        tree:path as:published ;
+        tree:path tss:_from ;
         tree:value "2022-08-18T00:00:00+00:00"^^xsd:dateTime .
 
-    _:Nd97a8c285ae74c3a9c1c7a6a2c3a38ac a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/09/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-09T00:00:00+00:00"^^xsd:dateTime .
+    _:N7ef31b45c27b46d6a704f390a595fc9a a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/17/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-17T00:00:00+00:00"^^xsd:dateTime .
 
-    _:Nd9ce21e54524401cb7b414c611d0b8e6 a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/27/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-27T00:00:00+00:00"^^xsd:dateTime .
-
-    _:Nddf9096bf4d84128a8f3825fbb5dd874 a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/14/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-14T00:00:00+00:00"^^xsd:dateTime .
-
-    _:Ne570d9cceb89494e9d5a055b117719e2 a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/07/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-07T00:00:00+00:00"^^xsd:dateTime .
-
-    _:Nf1653b18d6384169b2ba004e7188a74d a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/05/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-05T00:00:00+00:00"^^xsd:dateTime .
-
-    _:Nf1b5fc44d666418aaa9164557025e1fa a tree:GreaterThanOrEqualToRelation ;
+    _:N7fdb4652377e4c6dbabd67bee7216248 a tree:LessThanRelation ;
         tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/23/readings.trig> ;
-        tree:path as:published ;
+        tree:path tss:_from ;
         tree:value "2022-08-23T00:00:00+00:00"^^xsd:dateTime .
 
-    _:Nf6947c8521a64c7aaf6c1094a0833ee1 a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/28/readings.trig> ;
-        tree:path as:published ;
-        tree:value "2022-08-28T00:00:00+00:00"^^xsd:dateTime .
+    _:N835e5d9658e8444981da3af454cd93e0 a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/06/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-06T00:00:00+00:00"^^xsd:dateTime .
 
-    _:Nf7334ec1ac874679859e2657271063f2 a tree:LessThanRelation ;
+    _:N85a53dfaa44b4dc9a9b6ca0c6658bd95 a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/12/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-12T00:00:00+00:00"^^xsd:dateTime .
+
+    _:N865ca0d95b82487c95d0fb8e1027e740 a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/02/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-02T00:00:00+00:00"^^xsd:dateTime .
+
+    _:N86c0439cacdf44e29414f97006a02364 a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/05/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-05T00:00:00+00:00"^^xsd:dateTime .
+
+    _:N89c54eb08bfb421e91507f46a2f73967 a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/09/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-09T00:00:00+00:00"^^xsd:dateTime .
+
+    _:N8d511fe44b754a7e8c11be5d0342a1d5 a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/30/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-30T00:00:00+00:00"^^xsd:dateTime .
+
+    _:N901cf2eb20cc4983861337f146d630f9 a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/20/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-20T00:00:00+00:00"^^xsd:dateTime .
+
+    _:N967959acd0db4191bb92f131ec2d9c35 a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/22/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-22T00:00:00+00:00"^^xsd:dateTime .
+
+    _:N9dec8f8b1e4e44ac978b2b451ce8e8ac a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/25/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-25T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Na0aec636ce524f4baf5d77e684f20b54 a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/16/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-16T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Na1f3f6ea49f9484aad2d1da68758c91f a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/11/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-11T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Na60212ab73914084934693f8b58b7ad1 a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/03/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-03T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Nb3ce69a2c4de453fb5c904894601c829 a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/21/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-21T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Nb61d48e831674cbbbb9216e9b0d4d8aa a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/19/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-19T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Nbab1b8f133404daaba4f6670771526d5 a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/11/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-11T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Nbdf4d7b52c49423c9c73f4132f46017f a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/15/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-15T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Nbeee7dd915704e148e43738f73a8e899 a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/13/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-13T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Nc31faf8422514e38a743591a69dde801 a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/23/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-23T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Nc42b3ffee56d4f18b5375d69a2704a66 a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/12/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-12T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Nc93d6e38d26d4f32939625632a865fa5 a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/16/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-16T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Ncf5c38700aaf44518030b8b37ca7ef61 a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/24/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-24T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Nd1158bdbccaa4b3eb2debc1f8a2e73df a tree:GreaterThanOrEqualToRelation ;
         tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/07/readings.trig> ;
-        tree:path as:published ;
+        tree:path tss:_from ;
         tree:value "2022-08-07T00:00:00+00:00"^^xsd:dateTime .
 
-    _:Nf9517895bdb249e48d58637ee8218286 a tree:LessThanRelation ;
+    _:Nd3b15633e7fd454dac88a176c7fd2c25 a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/21/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-21T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Nd3ec8198a1dd4273ad96c97d2a978770 a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/10/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-10T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Nd464354766d64435b7270e94280b11c5 a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/08/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-08T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Nda3d36dce63949d0868e58ca2aa99b86 a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/29/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-29T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Ndb07979f42bb4885839da0e0428d2eeb a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/03/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-03T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Ndc16a68cff7b45e3aaaa3b2850e04c3e a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/14/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-14T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Ndc7196cb6b7e4612bf5b44a4fd08cb00 a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/04/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-04T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Ne15d1a56b57a40bab82ddd35d4aa33d6 a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/04/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-04T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Nec15defe15254017bd0d7f2635c9fbe6 a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/01/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-01T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Nef643bb9c379481dbb758e65f3e492cf a tree:GreaterThanOrEqualToRelation ;
         tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/28/readings.trig> ;
-        tree:path as:published ;
+        tree:path tss:_from ;
         tree:value "2022-08-28T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Nf133f1c1f4e543799da3c97381328594 a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/01/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-01T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Nf21dddebef824012985f8089fdf4f69a a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/09/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-09T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Nf2a38ba04e0c40d49b2a20c2df2ffe5f a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/27/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-27T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Nf5ebd3bfe39e4d6fa27d37f6192f2cab a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/29/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-29T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Nfe94735705494f4cb43761eb5977f6aa a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/26/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-26T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Nff882db1da6b47b589a6f0a918870bfc a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/28/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-28T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Nfff3f47724fa4bc88a21a367d8424b5b a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/27/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-27T00:00:00+00:00"^^xsd:dateTime .
+
+    _:Nfff5a5d6969d43d7b8b5315ee52c3051 a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDESTSS/2022/08/05/readings.trig> ;
+        tree:path tss:_from ;
+        tree:value "2022-08-05T00:00:00+00:00"^^xsd:dateTime .
 }
 
