@@ -4,33 +4,33 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 {
-    <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDES/2020/2020.trig> tree:relation _:Nc43d78ac42734eb989543b8820b7b5ea,
-            _:Ndfffc90d081c4eb2b0e2cfc4cf129e42,
-            _:Ne89513c131af4defa65935789af3d503,
-            _:Nffd7f3cc8b2e428ea32819e2b233c3d7 .
+    <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDES/2020/2020.trig> tree:relation _:N364e2bdc173d4552b354f3288444e190,
+            _:N4b929b70c314490da2afbc77a8c1cb0e,
+            _:N73dffc6d5075471abce242e4b07163a0,
+            _:Nedb8640d3a8a41379b322c3658f8c181 .
 
     <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDES/LDES#eventstream> a ldes:EventStream ;
         ldes:timestampPath sosa:resultTime ;
         tree:view <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDES/LDES.trig> .
 
-    _:Nc43d78ac42734eb989543b8820b7b5ea a tree:GreaterThanOrEqualToRelation ;
+    _:N364e2bdc173d4552b354f3288444e190 a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDES/2020/12/12.trig> ;
+        tree:path sosa:observedProperty ;
+        tree:value "2020-12-01T00:00:00+00:00"^^xsd:dateTime .
+
+    _:N4b929b70c314490da2afbc77a8c1cb0e a tree:LessThanRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDES/2020/11/11.trig> ;
+        tree:path sosa:observedProperty ;
+        tree:value "2020-12-01T00:00:00+00:00"^^xsd:dateTime .
+
+    _:N73dffc6d5075471abce242e4b07163a0 a tree:GreaterThanOrEqualToRelation ;
         tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDES/2020/11/11.trig> ;
         tree:path sosa:observedProperty ;
         tree:value "2020-11-01T00:00:00+00:00"^^xsd:dateTime .
 
-    _:Ndfffc90d081c4eb2b0e2cfc4cf129e42 a tree:LessThanRelation ;
+    _:Nedb8640d3a8a41379b322c3658f8c181 a tree:LessThanRelation ;
         tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDES/2020/12/12.trig> ;
         tree:path sosa:observedProperty ;
         tree:value "2021-01-01T00:00:00+00:00"^^xsd:dateTime .
-
-    _:Ne89513c131af4defa65935789af3d503 a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDES/2020/12/12.trig> ;
-        tree:path sosa:observedProperty ;
-        tree:value "2020-12-01T00:00:00+00:00"^^xsd:dateTime .
-
-    _:Nffd7f3cc8b2e428ea32819e2b233c3d7 a tree:LessThanRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDES/2020/11/11.trig> ;
-        tree:path sosa:observedProperty ;
-        tree:value "2020-12-01T00:00:00+00:00"^^xsd:dateTime .
 }
 
