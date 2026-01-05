@@ -4,31 +4,31 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 {
-    <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDES/2020/2020.trig> tree:relation _:N0866490b07e248359a32b6017514477e,
-            _:N1b38e9be395a4e2fbd881dc13f7399dc,
-            _:N1c7be569709a45a99261d36cdeedb34a,
-            _:Nda7fec74c2da44d8b91c56d5553d0c56 .
-
-    <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDES/LDES#eventstream> a ldes:EventStream ;
+    <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/> a ldes:EventStream ;
         ldes:timestampPath sosa:resultTime ;
-        tree:view <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDES/LDES.trig> .
+        tree:view <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDES/2020/2020.trig> .
 
-    _:N0866490b07e248359a32b6017514477e a tree:GreaterThanOrEqualToRelation ;
+    <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDES/2020/2020.trig> tree:relation _:N469269f7fb3142b1ae6aa83b94a86d2e,
+            _:N4f4b455fc2a344c5a7154cd8a0cdeacc,
+            _:N4ff8ad1284674b83a7837aa485b094ba,
+            _:N6e327fedf2c341fb8507d048befde8e0 .
+
+    _:N469269f7fb3142b1ae6aa83b94a86d2e a tree:GreaterThanOrEqualToRelation ;
         tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDES/2020/12/12.trig> ;
         tree:path sosa:resultTime ;
         tree:value "2020-12-01T00:00:00+00:00"^^xsd:dateTime .
 
-    _:N1b38e9be395a4e2fbd881dc13f7399dc a tree:GreaterThanOrEqualToRelation ;
-        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDES/2020/11/11.trig> ;
-        tree:path sosa:resultTime ;
-        tree:value "2020-11-01T00:00:00+00:00"^^xsd:dateTime .
-
-    _:N1c7be569709a45a99261d36cdeedb34a a tree:LessThanRelation ;
+    _:N4f4b455fc2a344c5a7154cd8a0cdeacc a tree:LessThanRelation ;
         tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDES/2020/11/11.trig> ;
         tree:path sosa:resultTime ;
         tree:value "2020-12-01T00:00:00+00:00"^^xsd:dateTime .
 
-    _:Nda7fec74c2da44d8b91c56d5553d0c56 a tree:LessThanRelation ;
+    _:N4ff8ad1284674b83a7837aa485b094ba a tree:GreaterThanOrEqualToRelation ;
+        tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDES/2020/11/11.trig> ;
+        tree:path sosa:resultTime ;
+        tree:value "2020-11-01T00:00:00+00:00"^^xsd:dateTime .
+
+    _:N6e327fedf2c341fb8507d048befde8e0 a tree:LessThanRelation ;
         tree:node <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDES/2020/12/12.trig> ;
         tree:path sosa:resultTime ;
         tree:value "2021-01-01T00:00:00+00:00"^^xsd:dateTime .
