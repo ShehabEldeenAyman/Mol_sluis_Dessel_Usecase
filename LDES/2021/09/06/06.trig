@@ -1,0 +1,78 @@
+@prefix ldes: <https://w3id.org/ldes#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix tree: <https://w3id.org/tree#> .
+@prefix tss: <https://w3id.org/tss#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+{
+    <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDES/LDES.trig#> a ldes:EventStream ;
+        ldes:timestampPath sosa:resultTime ;
+        tree:member <http://example.com/observations/73626010/2021-09-06T05%3A15%3A00>,
+            <http://example.com/observations/73626010/2021-09-06T21%3A15%3A00>,
+            <http://example.com/observations/73626010/2021-09-06T21%3A30%3A00>,
+            <http://example.com/observations/73626010/2021-09-06T21%3A45%3A00>,
+            <http://example.com/observations/73626010/2021-09-06T22%3A00%3A00>,
+            <http://example.com/observations/73626010/2021-09-06T22%3A15%3A00>,
+            <http://example.com/observations/73626010/2021-09-06T22%3A30%3A00>,
+            <http://example.com/observations/73626010/2021-09-06T22%3A45%3A00> ;
+        tree:view <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDES/2021/09/06/06.trig> .
+
+    <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDES/LDES.trig#73626010> tss:from "2021-09-06T00:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2021-09-06T22%3A30%3A00> {
+    <http://example.com/observations/73626010/2021-09-06T22%3A30%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "-8.3"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2021-09-06T22:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2021-09-06T21%3A45%3A00> {
+    <http://example.com/observations/73626010/2021-09-06T21%3A45%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "18.08"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2021-09-06T21:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2021-09-06T22%3A00%3A00> {
+    <http://example.com/observations/73626010/2021-09-06T22%3A00%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "-1.31"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2021-09-06T22:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2021-09-06T21%3A15%3A00> {
+    <http://example.com/observations/73626010/2021-09-06T21%3A15%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "-5.87"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2021-09-06T21:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2021-09-06T21%3A30%3A00> {
+    <http://example.com/observations/73626010/2021-09-06T21%3A30%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "14.14"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2021-09-06T21:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2021-09-06T22%3A45%3A00> {
+    <http://example.com/observations/73626010/2021-09-06T22%3A45%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "-2.29"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2021-09-06T22:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2021-09-06T22%3A15%3A00> {
+    <http://example.com/observations/73626010/2021-09-06T22%3A15%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "-14.9"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2021-09-06T22:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2021-09-06T05%3A15%3A00> {
+    <http://example.com/observations/73626010/2021-09-06T05%3A15%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "-2.37"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2021-09-06T05:15:00"^^xsd:dateTime .
+}
+
