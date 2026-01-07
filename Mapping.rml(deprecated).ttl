@@ -16,10 +16,9 @@
     rml:referenceFormulation ql:CSV
   ];
 
-      rr:subjectMap [
-          rr:template "http://example.com/observations/{ts_id}/{Timestamp}" ;
-          rr:class sosa:Observation
-    ];
+  rr:subjectMap [
+        rr:termType rr:BlankNode ;
+  ];
 
       rr:predicateObjectMap [
         rr:predicate rdf:type ;               # Predicate is rdf:type (a)
