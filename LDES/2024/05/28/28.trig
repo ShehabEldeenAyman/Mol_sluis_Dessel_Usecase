@@ -1,21 +1,45 @@
+@prefix ex: <http://example.com/ns#> .
 @prefix ldes: <https://w3id.org/ldes#> .
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
 @prefix tree: <https://w3id.org/tree#> .
 @prefix tss: <https://w3id.org/tss#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://example.com/observations/73626010/2024-05-28T21%3A00%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T21%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-7.04"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T21:00:00"^^xsd:dateTime .
+<http://example.com/observations/73617010/2024-05-28T08%3A00%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T08%3A00%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.71"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T08:00:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73626010/2024-05-28T22%3A30%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T22%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "9.34"^^xsd:float ;
+<http://example.com/observations/73617010/2024-05-28T13%3A15%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T13%3A15%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.8"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T13:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T09%3A00%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T09%3A00%3A00> a sosa:Observation ;
+        ex:runoffValue -7.00936e+03 ;
+        sosa:hasSimpleResult "-7.01"^^xsd:float ;
         sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T22:30:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T09:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T07%3A30%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T07%3A30%3A00> a sosa:Observation ;
+        ex:runoffValue 1.104459e+04 ;
+        sosa:hasSimpleResult "11.04"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T07:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T07%3A45%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T07%3A45%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.71"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T07:45:00"^^xsd:dateTime .
 }
 
 <http://example.com/observations/73617010/2024-05-28T06%3A00%3A00> {
@@ -25,67 +49,115 @@
         sosa:resultTime "2024-05-28T06:00:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73626010/2024-05-28T04%3A45%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T04%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-1.89"^^xsd:float ;
+<http://example.com/observations/73626010/2024-05-28T02%3A00%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T02%3A00%3A00> a sosa:Observation ;
+        ex:runoffValue -5.8382e+02 ;
+        sosa:hasSimpleResult "-0.58"^^xsd:float ;
         sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T04:45:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T02:00:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73626010/2024-05-28T01%3A30%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T01%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-7.83"^^xsd:float ;
+<http://example.com/observations/73626010/2024-05-28T21%3A30%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T21%3A30%3A00> a sosa:Observation ;
+        ex:runoffValue 2.410718e+04 ;
+        sosa:hasSimpleResult "24.11"^^xsd:float ;
         sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T01:30:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T21:30:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73617010/2024-05-28T06%3A45%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T06%3A45%3A00> a sosa:Observation ;
+<http://example.com/observations/73617010/2024-05-28T21%3A45%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T21%3A45%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.74"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T21:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T20%3A30%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T20%3A30%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.73"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T20:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T16%3A30%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T16%3A30%3A00> a sosa:Observation ;
+        ex:runoffValue 1.843587e+04 ;
+        sosa:hasSimpleResult "18.44"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T16:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T02%3A00%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T02%3A00%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.73"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T02:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T18%3A00%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T18%3A00%3A00> a sosa:Observation ;
         sosa:hasSimpleResult "29.7"^^xsd:float ;
         sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T06:45:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T18:00:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73626010/2024-05-28T03%3A30%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T03%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "0.43"^^xsd:float ;
+<http://example.com/observations/73626010/2024-05-28T23%3A30%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T23%3A30%3A00> a sosa:Observation ;
+        ex:runoffValue -2.086969e+04 ;
+        sosa:hasSimpleResult "-20.87"^^xsd:float ;
         sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T03:30:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T23:30:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73617010/2024-05-28T11%3A30%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T11%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.76"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T11:30:00"^^xsd:dateTime .
+<http://example.com/observations/73626010/2024-05-28T05%3A45%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T05%3A45%3A00> a sosa:Observation ;
+        ex:runoffValue -1.210611e+04 ;
+        sosa:hasSimpleResult "-12.11"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T05:45:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73617010/2024-05-28T03%3A00%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T03%3A00%3A00> a sosa:Observation ;
+<http://example.com/observations/73617010/2024-05-28T01%3A00%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T01%3A00%3A00> a sosa:Observation ;
         sosa:hasSimpleResult "29.71"^^xsd:float ;
         sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T03:00:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T01:00:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73626010/2024-05-28T07%3A15%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T07%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "13.4"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T07:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T15%3A15%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T15%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.7"^^xsd:float ;
+<http://example.com/observations/73617010/2024-05-28T20%3A45%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T20%3A45%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.72"^^xsd:float ;
         sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T15:15:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T20:45:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73626010/2024-05-28T19%3A45%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T19%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "10.29"^^xsd:float ;
+<http://example.com/observations/73626010/2024-05-28T12%3A30%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T12%3A30%3A00> a sosa:Observation ;
+        ex:runoffValue -4.89237e+03 ;
+        sosa:hasSimpleResult "-4.89"^^xsd:float ;
         sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T19:45:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T12:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T21%3A30%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T21%3A30%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.72"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T21:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T10%3A30%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T10%3A30%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.71"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T10:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T05%3A45%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T05%3A45%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.72"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T05:45:00"^^xsd:dateTime .
 }
 
 <http://example.com/observations/73617010/2024-05-28T11%3A45%3A00> {
@@ -95,11 +167,622 @@
         sosa:resultTime "2024-05-28T11:45:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73626010/2024-05-28T17%3A00%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T17%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-15.36"^^xsd:float ;
+<http://example.com/observations/73617010/2024-05-28T13%3A00%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T13%3A00%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.66"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T13:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T15%3A15%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T15%3A15%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.7"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T15:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T13%3A00%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T13%3A00%3A00> a sosa:Observation ;
+        ex:runoffValue 2.596104e+04 ;
+        sosa:hasSimpleResult "25.96"^^xsd:float ;
         sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T13:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T09%3A45%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T09%3A45%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.73"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T09:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T16%3A00%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T16%3A00%3A00> a sosa:Observation ;
+        ex:runoffValue -1.593586e+04 ;
+        sosa:hasSimpleResult "-15.94"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T16:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T00%3A15%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T00%3A15%3A00> a sosa:Observation ;
+        ex:runoffValue -7.6479e+03 ;
+        sosa:hasSimpleResult "-7.65"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T00:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T03%3A45%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T03%3A45%3A00> a sosa:Observation ;
+        ex:runoffValue 4.32789e+03 ;
+        sosa:hasSimpleResult "4.33"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T03:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T19%3A15%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T19%3A15%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.72"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T19:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T09%3A15%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T09%3A15%3A00> a sosa:Observation ;
+        ex:runoffValue -6.27503e+03 ;
+        sosa:hasSimpleResult "-6.28"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T09:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T20%3A30%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T20%3A30%3A00> a sosa:Observation ;
+        ex:runoffValue 3.10463e+03 ;
+        sosa:hasSimpleResult "3.1"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T20:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T22%3A15%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T22%3A15%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.67"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T22:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T03%3A00%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T03%3A00%3A00> a sosa:Observation ;
+        ex:runoffValue -5.20842e+03 ;
+        sosa:hasSimpleResult "-5.21"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T03:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T05%3A30%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T05%3A30%3A00> a sosa:Observation ;
+        ex:runoffValue -1.613223e+04 ;
+        sosa:hasSimpleResult "-16.13"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T05:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T09%3A30%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T09%3A30%3A00> a sosa:Observation ;
+        ex:runoffValue 3.94733e+03 ;
+        sosa:hasSimpleResult "3.95"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T09:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T14%3A15%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T14%3A15%3A00> a sosa:Observation ;
+        ex:runoffValue 4.3948e+03 ;
+        sosa:hasSimpleResult "4.39"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T14:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T19%3A00%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T19%3A00%3A00> a sosa:Observation ;
+        ex:runoffValue 1.60849e+04 ;
+        sosa:hasSimpleResult "16.08"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T19:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T04%3A15%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T04%3A15%3A00> a sosa:Observation ;
+        ex:runoffValue 4.65635e+03 ;
+        sosa:hasSimpleResult "4.66"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T04:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T13%3A45%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T13%3A45%3A00> a sosa:Observation ;
+        ex:runoffValue -2.442451e+04 ;
+        sosa:hasSimpleResult "-24.42"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T13:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T14%3A00%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T14%3A00%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.73"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T14:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T13%3A30%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T13%3A30%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.75"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T13:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T03%3A45%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T03%3A45%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.72"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T03:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T16%3A15%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T16%3A15%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.7"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T16:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T17%3A00%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T17%3A00%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.75"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
         sosa:resultTime "2024-05-28T17:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T21%3A00%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T21%3A00%3A00> a sosa:Observation ;
+        ex:runoffValue -7.04412e+03 ;
+        sosa:hasSimpleResult "-7.04"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T21:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T19%3A15%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T19%3A15%3A00> a sosa:Observation ;
+        ex:runoffValue -8.90905e+03 ;
+        sosa:hasSimpleResult "-8.91"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T19:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T07%3A30%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T07%3A30%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.74"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T07:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T06%3A30%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T06%3A30%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.71"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T06:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T15%3A00%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T15%3A00%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.73"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T15:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T10%3A45%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T10%3A45%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.76"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T10:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T16%3A45%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T16%3A45%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.78"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T16:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T08%3A45%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T08%3A45%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.75"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T08:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T22%3A45%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T22%3A45%3A00> a sosa:Observation ;
+        ex:runoffValue 3.27791e+03 ;
+        sosa:hasSimpleResult "3.28"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T22:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T23%3A00%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T23%3A00%3A00> a sosa:Observation ;
+        ex:runoffValue 6.68973e+03 ;
+        sosa:hasSimpleResult "6.69"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T23:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T16%3A30%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T16%3A30%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.67"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T16:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T14%3A15%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T14%3A15%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.77"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T14:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T20%3A45%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T20%3A45%3A00> a sosa:Observation ;
+        ex:runoffValue -1.519268e+04 ;
+        sosa:hasSimpleResult "-15.19"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T20:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T04%3A45%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T04%3A45%3A00> a sosa:Observation ;
+        ex:runoffValue -1.88801e+03 ;
+        sosa:hasSimpleResult "-1.89"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T04:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T15%3A15%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T15%3A15%3A00> a sosa:Observation ;
+        ex:runoffValue 2.549324e+04 ;
+        sosa:hasSimpleResult "25.49"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T15:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T18%3A45%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T18%3A45%3A00> a sosa:Observation ;
+        ex:runoffValue 2.7251e+03 ;
+        sosa:hasSimpleResult "2.73"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T18:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T12%3A00%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T12%3A00%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.8"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T12:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T18%3A30%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T18%3A30%3A00> a sosa:Observation ;
+        ex:runoffValue -2.067865e+04 ;
+        sosa:hasSimpleResult "-20.68"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T18:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T15%3A00%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T15%3A00%3A00> a sosa:Observation ;
+        ex:runoffValue -6.3394e+03 ;
+        sosa:hasSimpleResult "-6.34"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T15:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T02%3A15%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T02%3A15%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.69"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T02:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T02%3A30%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T02%3A30%3A00> a sosa:Observation ;
+        ex:runoffValue 5.819e+02 ;
+        sosa:hasSimpleResult "0.58"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T02:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T17%3A45%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T17%3A45%3A00> a sosa:Observation ;
+        ex:runoffValue -5.28748e+03 ;
+        sosa:hasSimpleResult "-5.29"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T17:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T22%3A15%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T22%3A15%3A00> a sosa:Observation ;
+        ex:runoffValue -2.53256e+03 ;
+        sosa:hasSimpleResult "-2.53"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T22:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T13%3A30%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T13%3A30%3A00> a sosa:Observation ;
+        ex:runoffValue -5.237601e+04 ;
+        sosa:hasSimpleResult "-52.38"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T13:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T14%3A45%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T14%3A45%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.76"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T14:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T09%3A00%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T09%3A00%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.7"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T09:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T10%3A45%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T10%3A45%3A00> a sosa:Observation ;
+        ex:runoffValue -8.82239e+03 ;
+        sosa:hasSimpleResult "-8.82"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T10:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T00%3A45%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T00%3A45%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.68"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T00:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T16%3A45%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T16%3A45%3A00> a sosa:Observation ;
+        ex:runoffValue 2.26907e+04 ;
+        sosa:hasSimpleResult "22.69"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T16:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T08%3A15%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T08%3A15%3A00> a sosa:Observation ;
+        ex:runoffValue -7.374e+02 ;
+        sosa:hasSimpleResult "-0.74"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T08:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T23%3A45%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T23%3A45%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.72"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T23:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T02%3A45%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T02%3A45%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.71"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T02:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T16%3A15%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T16%3A15%3A00> a sosa:Observation ;
+        ex:runoffValue -1.222412e+04 ;
+        sosa:hasSimpleResult "-12.22"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T16:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T19%3A00%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T19%3A00%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.74"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T19:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T13%3A15%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T13%3A15%3A00> a sosa:Observation ;
+        ex:runoffValue 1.222959e+04 ;
+        sosa:hasSimpleResult "12.23"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T13:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T13%3A45%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T13%3A45%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.69"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T13:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T04%3A00%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T04%3A00%3A00> a sosa:Observation ;
+        ex:runoffValue -3.59234e+03 ;
+        sosa:hasSimpleResult "-3.59"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T04:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T22%3A00%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T22%3A00%3A00> a sosa:Observation ;
+        ex:runoffValue -2.143383e+04 ;
+        sosa:hasSimpleResult "-21.43"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T22:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T07%3A15%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T07%3A15%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.66"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T07:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T07%3A15%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T07%3A15%3A00> a sosa:Observation ;
+        ex:runoffValue 1.339621e+04 ;
+        sosa:hasSimpleResult "13.4"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T07:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T07%3A45%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T07%3A45%3A00> a sosa:Observation ;
+        ex:runoffValue -3.963e+03 ;
+        sosa:hasSimpleResult "-3.96"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T07:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T10%3A15%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T10%3A15%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.71"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T10:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T11%3A15%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T11%3A15%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.75"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T11:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T19%3A30%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T19%3A30%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.72"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T19:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T21%3A45%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T21%3A45%3A00> a sosa:Observation ;
+        ex:runoffValue 9.15022e+03 ;
+        sosa:hasSimpleResult "9.15"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T21:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T14%3A45%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T14%3A45%3A00> a sosa:Observation ;
+        ex:runoffValue -1.209208e+04 ;
+        sosa:hasSimpleResult "-12.09"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T14:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T03%3A30%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T03%3A30%3A00> a sosa:Observation ;
+        ex:runoffValue 4.2528e+02 ;
+        sosa:hasSimpleResult "0.43"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T03:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T08%3A30%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T08%3A30%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.68"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T08:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T07%3A00%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T07%3A00%3A00> a sosa:Observation ;
+        ex:runoffValue 5.97878e+03 ;
+        sosa:hasSimpleResult "5.98"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T07:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T11%3A00%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T11%3A00%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.71"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T11:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T19%3A45%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T19%3A45%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.74"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T19:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T16%3A00%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T16%3A00%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.75"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T16:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T14%3A30%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T14%3A30%3A00> a sosa:Observation ;
+        ex:runoffValue 8.13825e+03 ;
+        sosa:hasSimpleResult "8.14"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T14:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T15%3A30%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T15%3A30%3A00> a sosa:Observation ;
+        ex:runoffValue 3.949736e+04 ;
+        sosa:hasSimpleResult "39.5"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T15:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T12%3A15%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T12%3A15%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.72"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T12:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T20%3A15%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T20%3A15%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.72"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T20:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T04%3A00%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T04%3A00%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.7"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T04:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T20%3A15%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T20%3A15%3A00> a sosa:Observation ;
+        ex:runoffValue 7.98169e+03 ;
+        sosa:hasSimpleResult "7.98"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T20:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T09%3A45%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T09%3A45%3A00> a sosa:Observation ;
+        ex:runoffValue 5.96117e+03 ;
+        sosa:hasSimpleResult "5.96"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T09:45:00"^^xsd:dateTime .
 }
 
 <http://example.com/observations/73617010/2024-05-28T22%3A00%3A00> {
@@ -109,39 +792,57 @@
         sosa:resultTime "2024-05-28T22:00:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73626010/2024-05-28T14%3A30%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T14%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "8.14"^^xsd:float ;
+<http://example.com/observations/73626010/2024-05-28T22%3A30%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T22%3A30%3A00> a sosa:Observation ;
+        ex:runoffValue 9.34197e+03 ;
+        sosa:hasSimpleResult "9.34"^^xsd:float ;
         sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T14:30:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T22:30:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73617010/2024-05-28T01%3A30%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T01%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.74"^^xsd:float ;
+<http://example.com/observations/73617010/2024-05-28T12%3A45%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T12%3A45%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.72"^^xsd:float ;
         sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T01:30:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T12:45:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73626010/2024-05-28T02%3A45%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T02%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-1.55"^^xsd:float ;
+<http://example.com/observations/73626010/2024-05-28T00%3A30%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T00%3A30%3A00> a sosa:Observation ;
+        ex:runoffValue -2.050107e+04 ;
+        sosa:hasSimpleResult "-20.5"^^xsd:float ;
         sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T02:45:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T00:30:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73617010/2024-05-28T03%3A15%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T03%3A15%3A00> a sosa:Observation ;
+<http://example.com/observations/73617010/2024-05-28T04%3A15%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T04%3A15%3A00> a sosa:Observation ;
         sosa:hasSimpleResult "29.7"^^xsd:float ;
         sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T03:15:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T04:15:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73617010/2024-05-28T11%3A00%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T11%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.71"^^xsd:float ;
+<http://example.com/observations/73617010/2024-05-28T09%3A30%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T09%3A30%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.7"^^xsd:float ;
         sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T09:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T11%3A00%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T11%3A00%3A00> a sosa:Observation ;
+        ex:runoffValue -8.9473e+02 ;
+        sosa:hasSimpleResult "-0.89"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
         sosa:resultTime "2024-05-28T11:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T12%3A15%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T12%3A15%3A00> a sosa:Observation ;
+        ex:runoffValue -1.115844e+04 ;
+        sosa:hasSimpleResult "-11.16"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T12:15:00"^^xsd:dateTime .
 }
 
 <http://example.com/observations/73617010/2024-05-28T22%3A45%3A00> {
@@ -153,324 +854,26 @@
 
 <http://example.com/observations/73626010/2024-05-28T17%3A15%3A00> {
     <http://example.com/observations/73626010/2024-05-28T17%3A15%3A00> a sosa:Observation ;
+        ex:runoffValue -8.46224e+03 ;
         sosa:hasSimpleResult "-8.46"^^xsd:float ;
         sosa:observedProperty "River Discharge" ;
         sosa:resultTime "2024-05-28T17:15:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73626010/2024-05-28T14%3A45%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T14%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-12.09"^^xsd:float ;
+<http://example.com/observations/73626010/2024-05-28T18%3A15%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T18%3A15%3A00> a sosa:Observation ;
+        ex:runoffValue 9.98429e+03 ;
+        sosa:hasSimpleResult "9.98"^^xsd:float ;
         sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T14:45:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T18:15:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73617010/2024-05-28T08%3A30%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T08%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.68"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T08:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T08%3A00%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T08%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-2.9"^^xsd:float ;
+<http://example.com/observations/73626010/2024-05-28T19%3A30%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T19%3A30%3A00> a sosa:Observation ;
+        ex:runoffValue 2.73954e+03 ;
+        sosa:hasSimpleResult "2.74"^^xsd:float ;
         sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T08:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T02%3A00%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T02%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-0.58"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T02:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T22%3A15%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T22%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-2.53"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T22:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T16%3A30%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T16%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.67"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T16:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T07%3A30%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T07%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "11.04"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T07:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T00%3A00%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T00%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "16.65"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T00:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T13%3A00%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T13%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.66"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T13:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T15%3A00%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T15%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.73"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T15:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T01%3A45%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T01%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-5.72"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T01:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T02%3A15%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T02%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.69"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T02:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T20%3A30%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T20%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "3.1"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T20:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T23%3A15%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T23%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-9.08"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T23:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T04%3A30%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T04%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.71"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T04:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T14%3A15%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T14%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "4.39"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T14:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T18%3A30%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T18%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.72"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T18:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T03%3A00%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T03%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-5.21"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T03:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T17%3A45%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T17%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.76"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T17:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T23%3A15%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T23%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.78"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T23:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T03%3A15%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T03%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-5.74"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T03:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T16%3A45%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T16%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.78"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T16:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T02%3A45%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T02%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.71"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T02:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T07%3A00%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T07%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.74"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T07:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T05%3A45%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T05%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.72"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T05:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T07%3A00%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T07%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "5.98"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T07:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T05%3A45%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T05%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-12.11"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T05:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T09%3A45%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T09%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.73"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T09:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T12%3A15%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T12%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-11.16"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T12:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T13%3A45%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T13%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-24.42"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T13:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T18%3A00%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T18%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.7"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T18:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T15%3A15%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T15%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "25.49"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T15:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T14%3A45%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T14%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.76"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T14:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T19%3A15%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T19%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.72"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T19:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T17%3A15%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T17%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.7"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T17:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T12%3A30%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T12%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.74"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T12:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T09%3A15%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T09%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.7"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T09:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T22%3A30%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T22%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.74"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T22:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T04%3A15%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T04%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "4.66"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T04:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T22%3A00%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T22%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-21.43"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T22:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T05%3A30%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T05%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.75"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T05:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T10%3A00%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T10%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.74"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T10:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T06%3A00%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T06%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "15.01"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T06:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T01%3A15%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T01%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.72"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T01:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T10%3A30%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T10%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "8.3"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T10:30:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T19:30:00"^^xsd:dateTime .
 }
 
 <http://example.com/observations/73617010/2024-05-28T21%3A00%3A00> {
@@ -480,74 +883,149 @@
         sosa:resultTime "2024-05-28T21:00:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73617010/2024-05-28T07%3A30%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T07%3A30%3A00> a sosa:Observation ;
+<http://example.com/observations/73617010/2024-05-28T07%3A00%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T07%3A00%3A00> a sosa:Observation ;
         sosa:hasSimpleResult "29.74"^^xsd:float ;
         sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T07:30:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T07:00:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73617010/2024-05-28T16%3A00%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T16%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.75"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T16:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T14%3A00%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T14%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.73"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T14:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T00%3A30%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T00%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-20.5"^^xsd:float ;
+<http://example.com/observations/73626010/2024-05-28T23%3A15%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T23%3A15%3A00> a sosa:Observation ;
+        ex:runoffValue -9.08491e+03 ;
+        sosa:hasSimpleResult "-9.08"^^xsd:float ;
         sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T00:30:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T23:15:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73617010/2024-05-28T07%3A15%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T07%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.66"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T07:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T15%3A45%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T15%3A45%3A00> a sosa:Observation ;
+<http://example.com/observations/73617010/2024-05-28T01%3A15%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T01%3A15%3A00> a sosa:Observation ;
         sosa:hasSimpleResult "29.72"^^xsd:float ;
         sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T01:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T15%3A45%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T15%3A45%3A00> a sosa:Observation ;
+        ex:runoffValue -2.74134e+03 ;
+        sosa:hasSimpleResult "-2.74"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
         sosa:resultTime "2024-05-28T15:45:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73617010/2024-05-28T15%3A30%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T15%3A30%3A00> a sosa:Observation ;
+<http://example.com/observations/73617010/2024-05-28T14%3A30%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T14%3A30%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.71"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T14:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T21%3A15%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T21%3A15%3A00> a sosa:Observation ;
+        ex:runoffValue 1.454946e+04 ;
+        sosa:hasSimpleResult "14.55"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T21:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T23%3A45%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T23%3A45%3A00> a sosa:Observation ;
+        ex:runoffValue 4.32505e+03 ;
+        sosa:hasSimpleResult "4.33"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T23:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T00%3A45%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T00%3A45%3A00> a sosa:Observation ;
+        ex:runoffValue -1.869178e+04 ;
+        sosa:hasSimpleResult "-18.69"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T00:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T06%3A00%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T06%3A00%3A00> a sosa:Observation ;
+        ex:runoffValue 1.500776e+04 ;
+        sosa:hasSimpleResult "15.01"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T06:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T02%3A45%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T02%3A45%3A00> a sosa:Observation ;
+        ex:runoffValue -1.5473e+03 ;
+        sosa:hasSimpleResult "-1.55"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T02:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T05%3A00%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T05%3A00%3A00> a sosa:Observation ;
+        ex:runoffValue -5.73711e+03 ;
+        sosa:hasSimpleResult "-5.74"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T05:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T03%3A00%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T03%3A00%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.71"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T03:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T05%3A30%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T05%3A30%3A00> a sosa:Observation ;
         sosa:hasSimpleResult "29.75"^^xsd:float ;
         sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T15:30:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T05:30:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73626010/2024-05-28T18%3A30%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T18%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-20.68"^^xsd:float ;
+<http://example.com/observations/73626010/2024-05-28T01%3A30%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T01%3A30%3A00> a sosa:Observation ;
+        ex:runoffValue -7.83432e+03 ;
+        sosa:hasSimpleResult "-7.83"^^xsd:float ;
         sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T18:30:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T01:30:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73626010/2024-05-28T23%3A00%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T23%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "6.69"^^xsd:float ;
+<http://example.com/observations/73626010/2024-05-28T17%3A00%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T17%3A00%3A00> a sosa:Observation ;
+        ex:runoffValue -1.536273e+04 ;
+        sosa:hasSimpleResult "-15.36"^^xsd:float ;
         sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T23:00:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T17:00:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73617010/2024-05-28T20%3A15%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T20%3A15%3A00> a sosa:Observation ;
+<http://example.com/observations/73626010/2024-05-28T06%3A30%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T06%3A30%3A00> a sosa:Observation ;
+        ex:runoffValue 1.05684e+03 ;
+        sosa:hasSimpleResult "1.06"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T06:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T06%3A15%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T06%3A15%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.78"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T06:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T12%3A00%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T12%3A00%3A00> a sosa:Observation ;
+        ex:runoffValue 2.63662e+03 ;
+        sosa:hasSimpleResult "2.64"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T12:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T23%3A30%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T23%3A30%3A00> a sosa:Observation ;
         sosa:hasSimpleResult "29.72"^^xsd:float ;
         sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T20:15:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T23:30:00"^^xsd:dateTime .
 }
 
 {
@@ -752,39 +1230,287 @@
     <https://shehabeldeenayman.github.io/Mol_sluis_Dessel_Usecase/LDES/LDES.trig#73626010> tss:from "2024-05-28T00:00:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73626010/2024-05-28T09%3A30%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T09%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "3.95"^^xsd:float ;
+<http://example.com/observations/73626010/2024-05-28T11%3A15%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T11%3A15%3A00> a sosa:Observation ;
+        ex:runoffValue 1.40037e+03 ;
+        sosa:hasSimpleResult "1.4"^^xsd:float ;
         sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T09:30:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T11:15:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73626010/2024-05-28T17%3A45%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T17%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-5.29"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T17:45:00"^^xsd:dateTime .
+<http://example.com/observations/73617010/2024-05-28T00%3A00%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T00%3A00%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.7"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T00:00:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73626010/2024-05-28T20%3A45%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T20%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-15.19"^^xsd:float ;
+<http://example.com/observations/73626010/2024-05-28T19%3A45%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T19%3A45%3A00> a sosa:Observation ;
+        ex:runoffValue 1.029288e+04 ;
+        sosa:hasSimpleResult "10.29"^^xsd:float ;
         sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T20:45:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T19:45:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73626010/2024-05-28T12%3A30%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T12%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-4.89"^^xsd:float ;
+<http://example.com/observations/73617010/2024-05-28T21%3A15%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T21%3A15%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.71"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T21:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T10%3A15%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T10%3A15%3A00> a sosa:Observation ;
+        ex:runoffValue -1.343308e+04 ;
+        sosa:hasSimpleResult "-13.43"^^xsd:float ;
         sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T10:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T12%3A30%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T12%3A30%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.74"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
         sosa:resultTime "2024-05-28T12:30:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73626010/2024-05-28T15%3A45%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T15%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-2.74"^^xsd:float ;
+<http://example.com/observations/73617010/2024-05-28T04%3A30%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T04%3A30%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.71"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T04:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T00%3A30%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T00%3A30%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.72"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T00:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T01%3A00%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T01%3A00%3A00> a sosa:Observation ;
+        ex:runoffValue 8.12216e+03 ;
+        sosa:hasSimpleResult "8.12"^^xsd:float ;
         sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T01:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T08%3A30%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T08%3A30%3A00> a sosa:Observation ;
+        ex:runoffValue -1.04638e+03 ;
+        sosa:hasSimpleResult "-1.05"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T08:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T14%3A00%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T14%3A00%3A00> a sosa:Observation ;
+        ex:runoffValue 1.290897e+04 ;
+        sosa:hasSimpleResult "12.91"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T14:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T17%3A15%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T17%3A15%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.7"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T17:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T20%3A00%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T20%3A00%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.68"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T20:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T04%3A45%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T04%3A45%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.72"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T04:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T18%3A15%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T18%3A15%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.76"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T18:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T15%3A45%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T15%3A45%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.72"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
         sosa:resultTime "2024-05-28T15:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T03%3A15%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T03%3A15%3A00> a sosa:Observation ;
+        ex:runoffValue -5.73711e+03 ;
+        sosa:hasSimpleResult "-5.74"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T03:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T15%3A30%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T15%3A30%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.75"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T15:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T04%3A30%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T04%3A30%3A00> a sosa:Observation ;
+        ex:runoffValue 3.96169e+03 ;
+        sosa:hasSimpleResult "3.96"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T04:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T08%3A00%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T08%3A00%3A00> a sosa:Observation ;
+        ex:runoffValue -2.90299e+03 ;
+        sosa:hasSimpleResult "-2.9"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T08:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T08%3A45%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T08%3A45%3A00> a sosa:Observation ;
+        ex:runoffValue -2.7959e+02 ;
+        sosa:hasSimpleResult "-0.28"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T08:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T10%3A30%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T10%3A30%3A00> a sosa:Observation ;
+        ex:runoffValue 8.30474e+03 ;
+        sosa:hasSimpleResult "8.3"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T10:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T22%3A30%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T22%3A30%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.74"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T22:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T10%3A00%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T10%3A00%3A00> a sosa:Observation ;
+        ex:runoffValue -1.163346e+04 ;
+        sosa:hasSimpleResult "-11.63"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T10:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T18%3A45%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T18%3A45%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.7"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T18:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T06%3A15%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T06%3A15%3A00> a sosa:Observation ;
+        ex:runoffValue 1.335088e+04 ;
+        sosa:hasSimpleResult "13.35"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T06:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T03%3A15%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T03%3A15%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.7"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T03:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T10%3A00%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T10%3A00%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.74"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T10:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T11%3A45%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T11%3A45%3A00> a sosa:Observation ;
+        ex:runoffValue 6.00481e+03 ;
+        sosa:hasSimpleResult "6.0"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T11:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T08%3A15%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T08%3A15%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.71"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T08:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T17%3A45%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T17%3A45%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.76"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T17:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T02%3A15%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T02%3A15%3A00> a sosa:Observation ;
+        ex:runoffValue 2.7413e+02 ;
+        sosa:hasSimpleResult "0.27"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T02:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T01%3A45%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T01%3A45%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.69"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T01:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T23%3A15%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T23%3A15%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.78"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T23:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T18%3A30%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T18%3A30%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.72"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T18:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T01%3A30%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T01%3A30%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.74"^^xsd:float ;
+        sosa:observedProperty "River Stage" ;
+        sosa:resultTime "2024-05-28T01:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T05%3A15%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T05%3A15%3A00> a sosa:Observation ;
+        ex:runoffValue -1.22626e+03 ;
+        sosa:hasSimpleResult "-1.23"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T05:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T18%3A00%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T18%3A00%3A00> a sosa:Observation ;
+        ex:runoffValue 2.04492e+03 ;
+        sosa:hasSimpleResult "2.04"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T18:00:00"^^xsd:dateTime .
 }
 
 <http://example.com/observations/73617010/2024-05-28T03%3A30%3A00> {
@@ -794,311 +1520,34 @@
         sosa:resultTime "2024-05-28T03:30:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73617010/2024-05-28T21%3A45%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T21%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.74"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T21:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T05%3A30%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T05%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-16.13"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T05:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T08%3A00%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T08%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.71"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T08:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T13%3A00%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T13%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "25.96"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T13:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T10%3A30%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T10%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.71"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T10:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T16%3A15%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T16%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.7"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T16:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T23%3A45%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T23%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "4.33"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T23:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T17%3A00%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T17%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.75"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T17:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T08%3A45%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T08%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.75"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T08:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T00%3A15%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T00%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-7.65"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T00:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T11%3A15%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T11%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.75"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T11:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T06%3A30%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T06%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.71"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T06:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T19%3A00%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T19%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.74"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T19:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T09%3A30%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T09%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.7"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T09:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T22%3A45%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T22%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "3.28"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T22:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T02%3A30%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T02%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "0.58"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T02:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T08%3A15%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T08%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-0.74"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T08:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T04%3A15%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T04%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.7"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T04:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T01%3A00%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T01%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.71"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T01:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T06%3A15%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T06%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.78"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T06:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T20%3A45%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T20%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.72"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T20:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T10%3A45%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T10%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.76"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T10:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T21%3A45%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T21%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "9.15"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T21:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T06%3A15%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T06%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "13.35"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T06:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T19%3A15%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T19%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-8.91"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T19:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T18%3A15%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T18%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "9.98"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T18:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T04%3A00%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T04%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-3.59"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T04:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T13%3A15%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T13%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.8"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T13:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T07%3A45%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T07%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-3.96"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T07:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T10%3A15%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T10%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-13.43"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T10:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T14%3A30%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T14%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.71"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T14:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T10%3A15%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T10%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.71"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T10:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T21%3A30%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T21%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.72"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T21:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T16%3A30%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T16%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "18.44"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T16:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T11%3A00%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T11%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-0.89"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T11:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T11%3A15%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T11%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "1.4"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T11:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T12%3A45%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T12%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "2.57"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T12:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T19%3A45%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T19%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.74"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T19:45:00"^^xsd:dateTime .
-}
-
 <http://example.com/observations/73626010/2024-05-28T20%3A00%3A00> {
     <http://example.com/observations/73626010/2024-05-28T20%3A00%3A00> a sosa:Observation ;
+        ex:runoffValue 1.884864e+04 ;
         sosa:hasSimpleResult "18.85"^^xsd:float ;
         sosa:observedProperty "River Discharge" ;
         sosa:resultTime "2024-05-28T20:00:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73626010/2024-05-28T10%3A45%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T10%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-8.82"^^xsd:float ;
+<http://example.com/observations/73626010/2024-05-28T01%3A45%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T01%3A45%3A00> a sosa:Observation ;
+        ex:runoffValue -5.71815e+03 ;
+        sosa:hasSimpleResult "-5.72"^^xsd:float ;
         sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T10:45:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T01:45:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73617010/2024-05-28T23%3A30%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T23%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.72"^^xsd:float ;
+<http://example.com/observations/73626010/2024-05-28T00%3A00%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T00%3A00%3A00> a sosa:Observation ;
+        ex:runoffValue 1.664919e+04 ;
+        sosa:hasSimpleResult "16.65"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T00:00:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T11%3A30%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T11%3A30%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.76"^^xsd:float ;
         sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T23:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T17%3A30%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T17%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.7"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T17:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T02%3A15%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T02%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "0.27"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T02:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T11%3A30%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T11%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-14.21"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
         sosa:resultTime "2024-05-28T11:30:00"^^xsd:dateTime .
 }
 
@@ -1109,46 +1558,42 @@
         sosa:resultTime "2024-05-28T05:15:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73617010/2024-05-28T00%3A45%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T00%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.68"^^xsd:float ;
+<http://example.com/observations/73617010/2024-05-28T00%3A15%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T00%3A15%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.74"^^xsd:float ;
         sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T00:45:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T00:15:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73617010/2024-05-28T04%3A00%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T04%3A00%3A00> a sosa:Observation ;
+<http://example.com/observations/73626010/2024-05-28T06%3A45%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T06%3A45%3A00> a sosa:Observation ;
+        ex:runoffValue 1.014496e+04 ;
+        sosa:hasSimpleResult "10.14"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T06:45:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T11%3A30%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T11%3A30%3A00> a sosa:Observation ;
+        ex:runoffValue -1.420835e+04 ;
+        sosa:hasSimpleResult "-14.21"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T11:30:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73626010/2024-05-28T01%3A15%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T01%3A15%3A00> a sosa:Observation ;
+        ex:runoffValue 1.481511e+04 ;
+        sosa:hasSimpleResult "14.82"^^xsd:float ;
+        sosa:observedProperty "River Discharge" ;
+        sosa:resultTime "2024-05-28T01:15:00"^^xsd:dateTime .
+}
+
+<http://example.com/observations/73617010/2024-05-28T06%3A45%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T06%3A45%3A00> a sosa:Observation ;
         sosa:hasSimpleResult "29.7"^^xsd:float ;
         sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T04:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T11%3A45%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T11%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "6.0"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T11:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T21%3A30%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T21%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "24.11"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T21:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T09%3A15%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T09%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-6.28"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T09:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T03%3A45%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T03%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.72"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T03:45:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T06:45:00"^^xsd:dateTime .
 }
 
 <http://example.com/observations/73617010/2024-05-28T02%3A30%3A00> {
@@ -1158,95 +1603,26 @@
         sosa:resultTime "2024-05-28T02:30:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73617010/2024-05-28T18%3A15%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T18%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.76"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T18:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T02%3A00%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T02%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.73"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T02:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T14%3A00%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T14%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "12.91"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T14:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T16%3A45%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T16%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "22.69"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T16:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T01%3A15%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T01%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "14.82"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T01:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T13%3A15%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T13%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "12.23"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T13:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T08%3A45%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T08%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-0.28"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T08:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T23%3A45%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T23%3A45%3A00> a sosa:Observation ;
+<http://example.com/observations/73617010/2024-05-28T23%3A00%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T23%3A00%3A00> a sosa:Observation ;
         sosa:hasSimpleResult "29.72"^^xsd:float ;
         sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T23:45:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T23:00:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73626010/2024-05-28T16%3A15%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T16%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-12.22"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T16:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T00%3A15%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T00%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.74"^^xsd:float ;
+<http://example.com/observations/73617010/2024-05-28T09%3A15%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T09%3A15%3A00> a sosa:Observation ;
+        sosa:hasSimpleResult "29.7"^^xsd:float ;
         sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T00:15:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T09:15:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73626010/2024-05-28T00%3A45%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T00%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-18.69"^^xsd:float ;
+<http://example.com/observations/73626010/2024-05-28T12%3A45%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T12%3A45%3A00> a sosa:Observation ;
+        ex:runoffValue 2.57229e+03 ;
+        sosa:hasSimpleResult "2.57"^^xsd:float ;
         sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T00:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T17%3A30%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T17%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "6.45"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T17:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T12%3A00%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T12%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.8"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T12:00:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T12:45:00"^^xsd:dateTime .
 }
 
 <http://example.com/observations/73617010/2024-05-28T05%3A00%3A00> {
@@ -1256,297 +1632,18 @@
         sosa:resultTime "2024-05-28T05:00:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73626010/2024-05-28T21%3A15%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T21%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "14.55"^^xsd:float ;
+<http://example.com/observations/73626010/2024-05-28T17%3A30%3A00> {
+    <http://example.com/observations/73626010/2024-05-28T17%3A30%3A00> a sosa:Observation ;
+        ex:runoffValue 6.44626e+03 ;
+        sosa:hasSimpleResult "6.45"^^xsd:float ;
         sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T21:15:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T17:30:00"^^xsd:dateTime .
 }
 
-<http://example.com/observations/73626010/2024-05-28T04%3A30%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T04%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "3.96"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T04:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T12%3A00%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T12%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "2.64"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T12:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T05%3A15%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T05%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-1.23"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T05:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T08%3A30%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T08%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-1.05"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T08:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T20%3A30%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T20%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.73"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T20:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T15%3A00%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T15%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-6.34"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T15:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T12%3A45%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T12%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.72"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T12:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T18%3A00%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T18%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "2.04"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T18:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T23%3A00%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T23%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.72"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T23:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T20%3A15%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T20%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "7.98"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T20:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T09%3A00%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T09%3A00%3A00> a sosa:Observation ;
+<http://example.com/observations/73617010/2024-05-28T17%3A30%3A00> {
+    <http://example.com/observations/73617010/2024-05-28T17%3A30%3A00> a sosa:Observation ;
         sosa:hasSimpleResult "29.7"^^xsd:float ;
         sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T09:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T19%3A30%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T19%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "2.74"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T19:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T19%3A30%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T19%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.72"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T19:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T00%3A30%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T00%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.72"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T00:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T14%3A15%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T14%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.77"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T14:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T07%3A45%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T07%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.71"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T07:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T09%3A45%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T09%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "5.96"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T09:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T20%3A00%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T20%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.68"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T20:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T13%3A30%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T13%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.75"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T13:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T16%3A00%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T16%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-15.94"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T16:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T09%3A00%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T09%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-7.01"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T09:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T19%3A00%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T19%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "16.08"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T19:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T01%3A45%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T01%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.69"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T01:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T04%3A45%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T04%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.72"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T04:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T15%3A30%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T15%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "39.5"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T15:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T06%3A30%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T06%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "1.06"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T06:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T13%3A45%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T13%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.69"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T13:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T18%3A45%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T18%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.7"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T18:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T03%3A45%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T03%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "4.33"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T03:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T00%3A00%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T00%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.7"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T00:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T12%3A15%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T12%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.72"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T12:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T08%3A15%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T08%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.71"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T08:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T10%3A00%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T10%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-11.63"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T10:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T22%3A15%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T22%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.67"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T22:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T23%3A30%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T23%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-20.87"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T23:30:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T05%3A00%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T05%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-5.74"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T05:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T18%3A45%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T18%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "2.73"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T18:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T01%3A00%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T01%3A00%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "8.12"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T01:00:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T06%3A45%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T06%3A45%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "10.14"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T06:45:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73617010/2024-05-28T21%3A15%3A00> {
-    <http://example.com/observations/73617010/2024-05-28T21%3A15%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "29.71"^^xsd:float ;
-        sosa:observedProperty "River Stage" ;
-        sosa:resultTime "2024-05-28T21:15:00"^^xsd:dateTime .
-}
-
-<http://example.com/observations/73626010/2024-05-28T13%3A30%3A00> {
-    <http://example.com/observations/73626010/2024-05-28T13%3A30%3A00> a sosa:Observation ;
-        sosa:hasSimpleResult "-52.38"^^xsd:float ;
-        sosa:observedProperty "River Discharge" ;
-        sosa:resultTime "2024-05-28T13:30:00"^^xsd:dateTime .
+        sosa:resultTime "2024-05-28T17:30:00"^^xsd:dateTime .
 }
 
